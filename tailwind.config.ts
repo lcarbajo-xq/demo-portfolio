@@ -30,6 +30,9 @@ module.exports = {
         poppins: ['Poppins', 'sans-serif'],
         inter: ['Inter', 'sans-serif']
       },
+      backgroundImage: {
+        hero: "url('/hero-background.avif')"
+      },
       colors: {
         black: {
           DEFAULT: '#000',
@@ -37,6 +40,12 @@ module.exports = {
           200: '#161B22',
           300: '#1F2428',
           400: '#242C38'
+        },
+        white: {
+          DEFAULT: '#FFF',
+          400: '#A3B3BC',
+          500: '#A4B8D5',
+          800: '#D0DFFF'
         },
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
@@ -71,11 +80,6 @@ module.exports = {
           DEFAULT: 'hsl(var(--card))',
           foreground: 'hsl(var(--card-foreground))'
         }
-      },
-      borderRadius: {
-        lg: 'var(--radius)',
-        md: 'calc(var(--radius) - 2px)',
-        sm: 'calc(var(--radius) - 4px)'
       },
       keyframes: {
         'accordion-down': {

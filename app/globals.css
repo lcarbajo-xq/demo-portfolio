@@ -13,11 +13,43 @@
     @apply text-[16px] leading-[22px] font-normal;
   }
 
+  .base-regular {
+    @apply text-[24px] font-normal leading-[31.2px];
+  }
+
+  .base-bold {
+    @apply text-[24px] font-semibold leading-[31.2px];
+  }
+
   .link-gradient {
     background: linear-gradient(90deg, #4ca5ff 2.5%, #b673f8 97.5%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
+  }
+
+  .gradient_blue-purple {
+    background: linear-gradient(90deg, #4ca5ff 0%, #b573f8 100%);
+  }
+
+  .main-padding {
+    @apply sm:p-16 xs:p-8 px-6 py-12;
+  }
+
+  .nav-padding {
+    @apply pt-[98px];
+  }
+
+  .heading-1 {
+    @apply text-[64px] leading-[67.2px] font-bold;
+  }
+
+  .heading-2 {
+    @apply font-bold text-[48px] leading-[50.4px];
+  }
+
+  .heading-3 {
+    @apply font-bold sm:text-[32px] sm:leading-[33.6px] text-[28px] leading-[40px] tracking-[-0.25%];
   }
 }
