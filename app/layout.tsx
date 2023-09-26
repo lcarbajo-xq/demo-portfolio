@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Luis Carbajo Portfolio',
-  description: 'I&apos;m a software engineer based in Spain specializing in building (and occasionally designing) exceptional websites, applications, and everything in between. Please check my portfolio and feel free to contact me.',
+  description: `I'm a software engineer based in Spain specializing in building (and occasionally designing) exceptional websites, applications, and everything in between. Please check my portfolio and feel free to contact me.`,
   other: {
     'theme-color': '#0d1117',
     'color-scheme': 'dark only',
