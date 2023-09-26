@@ -10,7 +10,7 @@ interface Props {
   }
 }
 
-export const revailidate = 900
+export const revalidate = 900
 
 async function Page({ searchParams }: Props) {
   const resources = await getResources({
